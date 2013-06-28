@@ -10,7 +10,6 @@
 		311A7C18177D11B4007C2DEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311A7C17177D11B4007C2DEA /* Cocoa.framework */; };
 		311A7C22177D11B4007C2DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 311A7C20177D11B4007C2DEA /* InfoPlist.strings */; };
 		311A7C24177D11B4007C2DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A7C23177D11B4007C2DEA /* main.m */; };
-		311A7C28177D11B4007C2DEA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 311A7C26177D11B4007C2DEA /* Credits.rtf */; };
 		311A7C2B177D11B4007C2DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A7C2A177D11B4007C2DEA /* AppDelegate.m */; };
 		311A7C2E177D11B4007C2DEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311A7C2C177D11B4007C2DEA /* MainMenu.xib */; };
 		311A7C30177D11B4007C2DEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311A7C2F177D11B4007C2DEA /* Images.xcassets */; };
@@ -18,6 +17,8 @@
 		311A7C38177D11B4007C2DEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311A7C17177D11B4007C2DEA /* Cocoa.framework */; };
 		311A7C40177D11B4007C2DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 311A7C3E177D11B4007C2DEA /* InfoPlist.strings */; };
 		311A7C42177D11B4007C2DEA /* dragCenteringMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A7C41177D11B4007C2DEA /* dragCenteringMacTests.m */; };
+		311A7C4D177D1215007C2DEA /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A7C4C177D1215007C2DEA /* DraggableView.m */; };
+		311A7C50177D20A4007C2DEA /* SpacerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A7C4F177D20A4007C2DEA /* SpacerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		311A7C21177D11B4007C2DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		311A7C23177D11B4007C2DEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		311A7C25177D11B4007C2DEA /* dragCenteringMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dragCenteringMac-Prefix.pch"; sourceTree = "<group>"; };
-		311A7C27177D11B4007C2DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		311A7C29177D11B4007C2DEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		311A7C2A177D11B4007C2DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		311A7C2D177D11B4007C2DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -50,6 +50,12 @@
 		311A7C3D177D11B4007C2DEA /* dragCenteringMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dragCenteringMacTests-Info.plist"; sourceTree = "<group>"; };
 		311A7C3F177D11B4007C2DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		311A7C41177D11B4007C2DEA /* dragCenteringMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dragCenteringMacTests.m; sourceTree = "<group>"; };
+		311A7C4B177D1215007C2DEA /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		311A7C4C177D1215007C2DEA /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		311A7C4E177D20A4007C2DEA /* SpacerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpacerView.h; sourceTree = "<group>"; };
+		311A7C4F177D20A4007C2DEA /* SpacerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpacerView.m; sourceTree = "<group>"; };
+		31A267AE177D64F700B2AF0A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		31A267AF177D659900B2AF0A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,8 @@
 		311A7C0B177D11B3007C2DEA = {
 			isa = PBXGroup;
 			children = (
+				31A267AF177D659900B2AF0A /* .gitignore */,
+				31A267AE177D64F700B2AF0A /* README.md */,
 				311A7C1D177D11B4007C2DEA /* dragCenteringMac */,
 				311A7C3B177D11B4007C2DEA /* dragCenteringMacTests */,
 				311A7C16177D11B4007C2DEA /* Frameworks */,
@@ -117,6 +125,10 @@
 			children = (
 				311A7C29177D11B4007C2DEA /* AppDelegate.h */,
 				311A7C2A177D11B4007C2DEA /* AppDelegate.m */,
+				311A7C4B177D1215007C2DEA /* DraggableView.h */,
+				311A7C4C177D1215007C2DEA /* DraggableView.m */,
+				311A7C4E177D20A4007C2DEA /* SpacerView.h */,
+				311A7C4F177D20A4007C2DEA /* SpacerView.m */,
 				311A7C2C177D11B4007C2DEA /* MainMenu.xib */,
 				311A7C2F177D11B4007C2DEA /* Images.xcassets */,
 				311A7C1E177D11B4007C2DEA /* Supporting Files */,
@@ -131,7 +143,6 @@
 				311A7C20177D11B4007C2DEA /* InfoPlist.strings */,
 				311A7C23177D11B4007C2DEA /* main.m */,
 				311A7C25177D11B4007C2DEA /* dragCenteringMac-Prefix.pch */,
-				311A7C26177D11B4007C2DEA /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,7 +243,6 @@
 			files = (
 				311A7C22177D11B4007C2DEA /* InfoPlist.strings in Resources */,
 				311A7C30177D11B4007C2DEA /* Images.xcassets in Resources */,
-				311A7C28177D11B4007C2DEA /* Credits.rtf in Resources */,
 				311A7C2E177D11B4007C2DEA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				311A7C50177D20A4007C2DEA /* SpacerView.m in Sources */,
+				311A7C4D177D1215007C2DEA /* DraggableView.m in Sources */,
 				311A7C2B177D11B4007C2DEA /* AppDelegate.m in Sources */,
 				311A7C24177D11B4007C2DEA /* main.m in Sources */,
 			);
@@ -282,14 +294,6 @@
 				311A7C21177D11B4007C2DEA /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		311A7C26177D11B4007C2DEA /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				311A7C27177D11B4007C2DEA /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		311A7C2C177D11B4007C2DEA /* MainMenu.xib */ = {
@@ -466,6 +470,7 @@
 				311A7C47177D11B4007C2DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311A7C48177D11B4007C2DEA /* Build configuration list for PBXNativeTarget "dragCenteringMacTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				311A7C4A177D11B4007C2DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
